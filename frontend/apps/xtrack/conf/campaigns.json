@@ -1,0 +1,27 @@
+{
+    "audience": [
+        {
+            "id": "Has_Not_Bought_Visitor",
+            "event_name": "Has_Not_Bought_Visitor",
+            "refinement": "(__xt.url.indexOf('index.html')!=-1||__xt.url.endsWith('tekmonks.com')||__xt.url.endsWith('tekmonks.com/'))",
+            "targets": "fb.wechat"
+        }
+    ],
+    "ads": [
+        {
+            "audience": [
+                "Has_Not_Bought_Visitor"
+            ],
+            "start": "2020-12-01",
+            "end": "2020-12-31",
+            "daily_budget": "$30",
+            "en": {
+                "image": "ahjd",
+                "text": "fe",
+                "headline": "fef",
+                "call_to_action": "",
+                "link": "fe"
+            }
+        }
+    ]
+}

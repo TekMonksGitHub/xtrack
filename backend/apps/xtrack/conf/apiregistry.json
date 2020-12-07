@@ -1,0 +1,4 @@
+{
+    "/apps/xtrack/publishEvents" : "/apis/publishEvents.js?needsToken=false",
+    "/apps/xtrack/publishAds" : "/apis/publishAds.js?needsToken=false"
+}
